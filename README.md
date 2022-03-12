@@ -19,7 +19,7 @@ Use together with LogAgent
 
 2、也可以设置一个topic切片用于存储所有需要用到的topic，对addr切片的每个ip分别试图读取topic切片的所有topic，这样有好有坏，一方面减少了重复连接到同一主机的次数，但另一方面会造成一些无效查找
 
-<img src="C:\Users\沐\AppData\Roaming\Typora\typora-user-images\image-20220312235320589.png" alt="image-20220312235320589" style="float:left" />
+<img src="pic_of_md/image-20220312235320589.png" alt="image" style="float:left;" />
 
 ES的连接及数据传入方面到底有哪些问题还不明了，因为当前对ES的了解还不够，比如Index之下的Type的一些概念和限制
 
